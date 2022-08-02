@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 20px 100px;
+}
+
+header .logo img {
+    width: 90px;
+    height: 90px;
+  
+
+
+}
+
+header .nave ul {
+    margin-top: 3%;
+    
+}
+
+header .nave ul li{
+    display: inline-block;
+}
+
+header .nave ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    font-size: 35px;
+    transition: all 1s;
+}
+
+header .nave ul li a:hover{
+    color: rgba(255, 0, 0, 0.482);
+}
+
+/* .main1 */
+
+.main1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    background-attachment: fixed;
+}
+
+.main1 .puma {
+    margin:50px 100px ;
+    width: 30%;
+}
+
+.main1 .puma h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main1 .puma h1 span{
+    color:rgba(255, 0, 0, 0.482) ;
+}
+
+.main1 .puma p{
+    margin-top: 5%;
+}
+
+/* shose */
+.main1 .shose img {
+    transition: all 1s;
+    cursor: pointer;
+    
+
+}
+.main1 .shose img:hover{
+    transform: scale(1.1);
+   
+}
+
+/* main2 */
+
+.main2{
+    display: flex;
+    width: 80%;
+    margin: 5% 5%;
+    padding: 5% 5%;
+    background-attachment: fixed;
+
+}
+
+.main2 .aimg{
+    width: 40%;
+}
+
+.main2 .aimg img{
+    height: 700px;
+    width: 620px;
+    border-radius: 10px;
+    
+} 
+
+.main2 .apra{
+    width: 30%;
+    margin-left: 20%;
+}
+
+
+.main2 .apra h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(255, 0, 0, 0.482) ;
+
+
+}
+
+.main3{
+    display: flex;
+    justify-content: center;
+    flex-direction:row ;
+}
+
+ section{
+    font-size: 60px;
+    font-weight: bold;
+    color:rgba(255, 0, 0, 0.482);
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+.main3 div{
+    background-color:rgba(165, 42, 42, 0.162); 
+    margin: 4px 5px;
+    width: 30%;
+    height: 220px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all  .5s;
+
+}
+
+.main3 div:hover{
+    background-color:rgba(255, 0, 0, 0.482) ;
+}
+
+.main3 div h3{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 50px;
+    text-transform: uppercase;
+}
+
+.main3 div p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px  30px;
+}
+
+/* main4 */
+
+.all section{
+    color:rgba(255, 0, 0, 0.482);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.main4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 10px;
+    border-radius: 7px;
+    
+
+}
+.main4 .pho{
+    width: 25%;
+    height: 500px;
+    margin: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.main4 .pho  img{
+    width:100%;
+    height: 500px;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 10px;
+    display: block;
+}
+
+.main4 .pho  img:hover{
+    transform: scale(1.05);
+}
+
+.main4 .pho .pra1{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    left: 0;
+    bottom: 0;
+    position:absolute;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all .8s;
+    cursor: pointer;
+   
+
+}
+
+.main4 .pho .pra1 h4{
+    text-align: center;
+    padding: 100px 0 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main4 .pho .pra1 p{
+    padding: 0 40px;
+
+}
+
+.main4 .pho:hover .pra1{
+    height: 100%;
+}
+
+.main4 .pho .pra1 span{
+    font-size: 30px;
+    margin: 70px 44%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    background-color: #ff004f;
+    text-align: center;
+    position: absolute;
+    border-radius: 2px;
+}
+
+ /* book shose */
+
+
+ .book .contact{
+    display: flex;
+    flex-direction: column;
+ }
+ .book .contact span{
+    color:rgba(255, 0, 0, 0.482);
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-bottom: 2%;
+ }
+
+ .book .contact{
+    width: 30%;
+    margin-left: 10%;
+ }
+
+ .book .contact a{
+    text-decoration: none;
+    color: white;
+    margin-left: 6%;
+    padding: 30px 0;
+    width: 15%;
+ }
+
+ .book .contact a::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border: 15px solid rgba(255, 0, 0, 0.482);
+    border-left-color:  rgba(255, 0, 0, 0.482);
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    margin-left:-25px;
+    margin-top: -5px;
+    padding: 2px 0;
+ }
+
+ .book #imp a img{
+    width: 20px;
+    height: 20px;
+    padding: 0 5px;
+
+ }
+
+ .book #imp{
+    margin: 20px 10%;
+    width: 15%;
+
+    
+ }
+
+ .book  #imp {
+    display: flex;
+    flex-direction: row;
+ }
+
+ .book section{
+    color:rgba(255, 0, 0, 0.482);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px 0;
+ }
+
+ .book{
+    width: 100%;
+ }
+
+ .book .booke{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+ }
+
+ .book .booke input{
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 10px 0;
+ }
+
+ .book .booke textarea{
+    width: 300px;
+    height: 70px;
+    margin: 10px 0;
+    border-radius: 7px;
+
+ }
+
+ .booke button{
+    width:170px;
+    height: 40px;
+    background-color:rgba(255, 0, 0, 0.482) ;
+    color: white;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 20px 0;
+ }
+
+ .booke button:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 0, 0, 0.482);
+ }
+
+ /* footer */
+
+ footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ footer p span{color: rgba(255, 0, 0, 0.482);}
+
+
+ /* media */
+ @media screen and (max-width:992px) {
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    header{
+        display: inline;
+
+        
+
+    }
+
+    header .logo img{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: 40%;
+
+        
+    }
+
+    header .nave ul{
+        margin-left: 15%;
+        width: 100%;
+    }
+
+    header .nave ul li a{
+        text-decoration: none;
+    color: white;
+    padding: 0 5px;
+    font-size: 20px;
+
+    }
+
+    .main1{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main1 .shose img{
+        height: 250px;
+    }
+    .main1 .puma {
+        margin:50px 10px ;
+        width: 90%;
+    }
+    
+    .main1 .puma h1{
+        font-size: 25px;
+        font-weight: bold;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .main2{
+        display: flex;
+        width: 80%;
+        margin: 5% 0;
+        padding: 5% 0;
+        background-attachment: fixed;
+        flex-direction: column;
+    
+    }
+
+    .main2 .aimg{
+        width: 100%;
+    }
+
+    .main2 .aimg img{
+        height: 500px;
+        border-radius: 10px;
+        
+    }
+
+    .main2 .apra{
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    .main3{
+
+        justify-content: center;
+        flex-direction:column ;
+    }
+
+    .main3 div{
+        background-color:rgba(165, 42, 42, 0.162); 
+        margin: 20px 5px;
+        width: 100%;
+        height: 250px;
+        border-radius: 7px;
+        cursor: pointer;
+        transition: all  .5s;
+    
+    }
+
+    .main4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 10px;
+        border-radius: 7px;
+        
+    
+    }
+    .main4 .pho{
+        width: 100%;
+        height: 500px;
+        margin: 20px 0;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    footer p{
+        font-size: 15px;    }
+
+        .book .contact{
+            margin-left: 20%;
+         }
+
+         .book #imp{
+            margin-left:20%;
+            
+        
+            
+         }
+
+         .main2 .aimg img{
+            height: 400px;
+            width: 92%;
+            border-radius: 10px;
+            margin-left: 4%;            
+        } 
+    
+ }
